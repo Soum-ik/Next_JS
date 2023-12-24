@@ -1,0 +1,34 @@
+{
+	"functional Component": {
+		"prefix": "fcp",
+		"body": [
+			"const $1 = () => {"
+			"return"
+			"}"
+			"export default $1"
+		],
+		"description": "Create a funcational component boilar plate "
+	  },
+
+	  "use state": {
+		"prefix": "ust",
+		"body": [
+			"const [$1,set$1] = useState()"
+		],
+		"description": "use state boilar plate"
+	  },
+	  "cls": {
+		"prefix": "cls",
+		"body": [
+			"className={`${$1}`}"
+		],
+		"description": "use state boilar plate"
+	  },
+	  "dynamic inputs": {
+		"prefix": "di",
+		"body": [
+			"className={`${$1} ${$2}`}"
+		],
+		"description": "dynamic inputs"
+	  },
+}

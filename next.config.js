@@ -1,4 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const config = require("../my-app/config");
 
-module.exports = nextConfig
+const nextConfig = {
+  env: {
+    db_URL: config.db_URL,
+  },
+};
+
+module.exports = nextConfig;
