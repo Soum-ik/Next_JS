@@ -1,7 +1,7 @@
 import "bootstrap-material-design/dist/css/bootstrap-material-design.css";
 import "./globals.css";
 import NavBar from "../../Components/TopNav";
-import styles from "../../style/style";
+import styles from "../style/style";
 
 export const metadata = {
   title: "Next JS learning",
